@@ -14,8 +14,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   overflow-x: hidden;
-  background-color: var(--bg-body);
-
   &.trava-scroll {
     overflow-y: hidden;
   }
