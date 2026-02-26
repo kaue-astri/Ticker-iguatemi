@@ -1,0 +1,123 @@
+.primary-button,
+.secondary-button {
+  box-shadow: none;
+
+  border: 1px solid;
+  border-radius: 2px;
+
+  padding: 12px 32px;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: rem(14);
+  font-weight: 600;
+  line-height: rem(24.8);
+
+  text-align: center;
+  text-decoration: none;
+
+  transition: color 0.3s ease-out, background-color 0.3s ease-out,
+    border-color 0.3s ease-out !important;
+  transition-timing-function: cubic-bezier(0, 0, 0.2, 1) !important;
+
+  &:disabled {
+    cursor: not-allowed;
+
+    border-color: var(--system-disabled);
+    color: var(--text-white);
+    background-color: var(--system-disabled);
+
+    &:hover,
+    &:focus {
+      border-color: inherit;
+      color: inherit;
+      background-color: inherit;
+    }
+  }
+}
+
+.primary-button {
+  border: 1px solid var(--text-grey-scale-08);
+  font-family: var(--font-matter);
+  color: var(--text-color);
+  background: transparent;
+  border-radius: 50px;
+  font-weight: 300;
+  transition: 0.3s !important;
+  width: fit-content !important;
+  padding: 12px 32px;
+  font-size: 1.13rem;
+  display: block;
+
+  &:hover {
+    background-color: var(--background-yellow);
+     border: 1px solid var(--text-yellow);
+    color: var(--grey-scale-08);
+    transition: 0.3s !important;
+  }
+
+  &:disabled {
+    cursor: not-allowed;
+
+    border-color: var(--system-disabled);
+    color: var(--text-white);
+    background-color: var(--system-disabled);
+
+    &:hover,
+    &:focus {
+      border-color: inherit;
+      color: inherit;
+      background-color: inherit;
+    }
+  }
+}
+
+.secondary-button {
+  border-color: var(--text-grey-scale-08);
+  color: var(--text-white);
+  background-color: var( --bg-dark);
+  border-radius: 50px;
+  font-weight: 300;
+  font-size: 1.13rem;
+  margin-top: 18px;
+
+  &:hover {
+   border-color: var(--text-grey-scale-07);
+  color: var(--text-white);
+  background-color: var(--grey-scale-07);
+  }
+
+  &:focus {
+    border-color: var(--text-grey-scale-07);
+  color: var(--text-white);
+  background-color: var(--grey-scale-07);
+  }
+
+  &:disabled {
+    cursor: not-allowed;
+
+    border-color: var(--system-disabled);
+    color: var(--system-disabled);
+    background-color: transparent;
+
+    &:hover,
+    &:focus {
+      border-color: inherit;
+      color: inherit;
+      background-color: inherit;
+    }
+  }
+}
+
+input#BTLgpd_Evolua_Priv {
+  width: fit-content !important;
+  background: #004d2b !important;
+  padding: 10px 20px !important;
+}
+
+.btn-saiba-mais {
+  display: flex;
+  justify-content: center;
+}

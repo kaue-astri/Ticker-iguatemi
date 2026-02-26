@@ -1,0 +1,117 @@
+[data-theme="dark"] {
+  .logo-white {
+    display: block !important;
+  }
+
+  .logo-home {
+    display: none !important;
+  }
+
+  .box-destaques {
+    .item {
+      img {
+        filter: brightness(10);
+      }
+    }
+  }
+
+  .list-destaques {
+    img {
+      filter: brightness(10);
+    }
+  }
+
+  .list-com-data,
+  .list-sem-data {
+    img {
+      filter: brightness(10);
+    }
+  }
+
+  .table {
+    a {
+      img {
+        filter: brightness(10);
+      }
+    }
+  }
+
+  .pagina-day {
+    .lista {
+      img {
+        filter: brightness(10);
+      }
+    }
+  }
+
+  .icon-aumentar-fonte,
+  .icon-diminuir-fonte {
+    filter: brightness(10);
+  }
+
+  .link-inst {
+    img {
+      filter: brightness(10);
+    }
+  }
+
+  .card-portfolio {
+    .titulo-descricao {
+      img {
+        filter: brightness(10);
+      }
+    }
+  }
+
+  .mobile-menu-div {
+    .logo-mobile-main {
+      .logo-mobile {
+        filter: brightness(10);
+      }
+    }
+  }
+
+  .div-menu-open {
+    .toggle-mobile-menu {
+      img {
+        filter: brightness(10);
+      }
+    }
+  }
+
+  .div-pesquisar-mobile {
+    input {
+      &::placeholder {
+        color: #fff !important;
+      }
+    }
+
+    .icon-busca {
+      &:before {
+        color: #fff;
+      }
+    }
+  }
+
+  .institucional-and-language {
+    ul {
+      li {
+        a {
+          color: #fff;
+        }
+      }
+    }
+  }
+
+  .menu-body {
+    .nav-mobile {
+      .accordion-item {
+        h3 {
+          button {
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+}
